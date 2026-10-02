@@ -1,0 +1,26 @@
+Serpantinum original logo reference
+
+serpantinum-original.svg is an unchanged copy of the official Serpantinum logo.
+All original geometry, styling, dimensions, and Inkscape metadata are preserved.
+
+Project: https://github.com/ilyamiro/serpantinum
+Original file: src/assets/logo.svg
+Pinned source: https://github.com/ilyamiro/serpantinum/blob/27dc3e4504a3b3eeccbd78f915dcfc65f5de6562/src/assets/logo.svg
+Retrieved: 2026-10-02 UTC
+Upstream commit: 27dc3e4504a3b3eeccbd78f915dcfc65f5de6562
+SVG Git blob SHA-1: d57ce1449bc7f8edf86a11e244f1317db4b0e125
+SVG size: 12662 bytes
+
+Attribution and license
+Copyright (C) 2026 Illia Miroshnichenko
+The upstream README identifies the project as GNU Affero General Public
+License version 3, or (at your option) any later version (AGPL-3.0-or-later).
+No separate logo-specific license was found. The upstream license is copied
+unchanged as LICENSE.md in this directory; its Git blob SHA-1 is
+c6f01c63aecd27fb7545403e13727b7b88502593.
+Source license: https://github.com/ilyamiro/serpantinum/blob/27dc3e4504a3b3eeccbd78f915dcfc65f5de6562/LICENSE.md
+Source attribution: https://github.com/ilyamiro/serpantinum/blob/27dc3e4504a3b3eeccbd78f915dcfc65f5de6562/README.md#license
+
+This reference is the original Serpantinum artwork, distinct from the custom
+Ouroboros variants in the parent directory. No affiliation or endorsement is
+claimed. Preserve these attribution and license materials with redistribution.
