@@ -17,14 +17,23 @@ Keplerian orbits (J2000 mean elements), set inside an engraved zodiac dial.
 
 ## Run
 
+From the repository root, create a Python 3 virtual environment and launch Orrery.
+
 ```sh
-pip install PySide6
-python3 main.py
+python3 -m venv .venv
+.venv/bin/python -m pip install PySide6
+.venv/bin/python orrery/main.py
 ```
+
+On Windows, use `py -m venv .venv` and replace `.venv/bin/python` with
+`.venv\Scripts\python.exe` in both commands.
 
 Keys: `Space` pause · `←/→` speed · `1–8` planet · `N` now · `S` scale.
 
-`tools/capture.py` renders the stills and animation frames in `media/` headlessly.
+To render the stills headlessly, run
+`QT_QPA_PLATFORM=offscreen QT_QUICK_BACKEND=software .venv/bin/python orrery/tools/capture.py shots`
+from the repository root. Add `--frames` to render the animation frames into
+the output directory as well.
 
 | Saturn retrograde | Mars at opposition | True scale |
 |---|---|---|
