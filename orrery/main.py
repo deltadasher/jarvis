@@ -11,7 +11,7 @@ from PySide6.QtQml import QQmlApplicationEngine
 app = QGuiApplication(sys.argv)
 app.setApplicationName("Orrery")
 engine = QQmlApplicationEngine()
-engine.load(Path(__file__).with_name("Main.qml").as_uri())
+engine.load(Path(__file__).resolve().with_name("Main.qml").as_uri())
 if not engine.rootObjects():
     sys.exit(1)
 sys.exit(app.exec())
